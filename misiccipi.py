@@ -12,5 +12,5 @@ def most_frequent(string):
     print(frequency_list)
   
 
-string = input()
+string = input("Please enter a string")
 most_frequent(string)
