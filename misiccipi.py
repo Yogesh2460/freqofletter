@@ -1,16 +1,3 @@
-"""test_str = "Mississippi"
-
-# using dict.get() to get count
-# of each element in string
-res = {}
-
-for keys in test_str:
-    res[keys] = res.get(keys, 0) + 1
-
-# printing result
-res.values()
-"""
-
 def frequency_analysis(string):
     d = dict()
     for key in string:
